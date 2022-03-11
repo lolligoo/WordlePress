@@ -5,7 +5,7 @@
         <input
           type="text"
           id="search-box"
-          placeholder="搜索小动物的名字吧！支持中文、英文和日文哦"
+          placeholder="搜索角色的名字吧！支持中文、英文哦"
           v-model="input"
         />
         <div id="search-icon"></div>

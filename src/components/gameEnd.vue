@@ -10,7 +10,7 @@
     <div class="text-frame" v-else>
       <span class="title">没猜中欸...</span>
       <p class="text">
-        我想的岛民是<b>{{ answer }}</b
+        我想的角色是<b>{{ answer }}</b
         >，下次加油吧！
       </p>
     </div>

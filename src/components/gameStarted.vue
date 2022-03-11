@@ -5,7 +5,7 @@
       >你还有<b>{{ remaining }}</b
       >次机会。</span
     >
-    <p class="text">请利用下方的搜索选出你猜测的岛民。</p>
+    <p class="text">请利用下方的搜索选出你猜测的角色。</p>
   </div>
   </card-frame>
 </template>

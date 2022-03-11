@@ -2,11 +2,11 @@
   <card-frame>
     <div class="text-frame">
       <span class="title">我猜是...</span>
-      <p class="text">下方列出了你已经猜过的岛民，以及我所给出的对应提示。</p>
-      <p class="text">✅ 代表我所想的岛民与你猜的这位岛民的此特点相符。</p>
+      <p class="text">下方列出了你已经猜过的角色，以及我所给出的对应提示。</p>
+      <p class="text">✅ 代表我所想的角色与你猜的这位角色的此特点相符。</p>
       <p class="text">❌ 则代表此特点并不相符。</p>
       <p class="text">
-        🔼 与 🔽 代表我所想的岛民与你猜的这位岛民的此数据相比更高或更低。
+        🔼 与 🔽 代表我所想的角色与你猜的这位角色的此数据相比更高或更低。
       </p>
     </div>
     <div class="function-frame">
@@ -20,7 +20,7 @@
           {{ property.text }}
         </div>
       </div>
-      <div id="table-holder" v-if="!guesses.length">你暂时还没有选择岛民哦</div>
+      <div id="table-holder" v-if="!guesses.length">你暂时还没有选择角色哦</div>
       <div class="table-row" v-for="guess in guesses" :key="guess">
         <div class="table-row-name">{{ metadata.list[guess].name[0] }}</div>
         <div

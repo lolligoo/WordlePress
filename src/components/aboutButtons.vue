@@ -1,12 +1,13 @@
 <template>
   <div class="about">
     <cardButton
-      onclick="window.open('https://github.com/MarkussLugia/WordlePress')"
+      onclick="window.open('https://github.com/lolligoo/WordlePress')"
       ><div id="github-logo"></div>
       GitHub</cardButton
     >
+    <cardButton>作者：@Lolligoo</cardButton>
     <cardButton onclick="window.open('https://weibo.com/u/6697782674')"
-      >@MarkussLugia</cardButton
+      >原作者：@MarkussLugia</cardButton
     >
   </div>
 </template>

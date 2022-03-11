@@ -136,7 +136,7 @@ export default {
       return;
     },
     shareResult() {
-      let shareText = "动森猜岛民";
+      let shareText = "饥荒猜角色";
       for (const item of this.$data.guesses) {
         shareText += "\n";
         for (const key in this.$data.metadata.properties) {
@@ -183,7 +183,7 @@ export default {
 <style>
 #app {
   background-color: #303030;
-  background-image: url(../public/siltra.svg);
+  /* background-image: url(../public/siltra.svg); */
   background-repeat: no-repeat;
   background-position: bottom 5px left 10px;
   background-size: 60%;
